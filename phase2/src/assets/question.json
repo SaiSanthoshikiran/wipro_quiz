@@ -1,0 +1,188 @@
+{
+    "question": [{
+            "questionText": "Which command is used to upgrade an IOS on a Cisco router?",
+            "options": [{
+                    "text": "copy tftp run"
+                    
+                },
+                {
+                    "text": "copy tftp start"
+                },
+                {
+                    "text": " config net"
+                },
+                {
+                    "text": "copy tftp flash",
+                    "correct": true
+                }
+            ],
+            "explanation": "The copy tftp flash command places a new file in flash memory, which is the default location for the Cisco IOS in Cisco routers."
+        },
+        {
+            "questionText": "Which of the following describe router functions?",
+            "options": [{
+                    "text": "Packet switching"
+                },
+                {
+                    "text": "Packet filtering"
+                },
+                {
+                    "text": "Internetwork communication"
+                },
+                {
+                    "text": "All the above",
+                    "correct": true
+                }
+            ],
+            "explanation": "Routers provide packet switching, packet filtering, internetwork communication, and path selection."
+        },
+        {
+            "questionText": "What type of RJ45 UTP cable is used between switches?",
+            "options": [{
+                    "text": "Straight-through"
+                },
+                {
+                    "text": "Crossover cable",
+                    "correct": true
+                },
+                {
+                    "text": "Crossover with a CSU/DSU"
+                },
+                {
+                    "text": "Crossover with a router in between the two switches"
+                }
+            ],
+            "explanation": "To connect two switches together, you would use a RJ45 UTP crossover cable."
+        },
+        {
+            "questionText": "Which of the following protocols uses both TCP and UDP?",
+            
+               
+            "options": [{
+                    "text": "FTP"
+                },
+                {
+                    "text": " SMTP"
+                   
+                },
+                {
+                    "text": "Telnet"
+                },
+                {
+                    "text": "DNS",
+                    "correct": true
+
+                }
+            ],
+            "explanation": "DNS uses TCP for zone exchanges between servers and UDP when a client is trying to resolve a hostname to an IP address."
+        },
+        {
+            "questionText": "In which of these does a class take parameters?",
+            "options": [{
+                    "text": "constructor",
+                    "correct": true
+                },
+                {
+                    "text": "destructor"
+                },
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "subscribe"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        },
+        {
+            "questionText": "Which is NOT an access modifier?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": "async is not used as an access modifier type in TypeScript"
+        },
+        {
+            "questionText": "Which keyword allows us to share information between files in TypeScript?",
+            "options": [{
+                    "text": "import"
+                },
+                {
+                    "text": "export",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "What is the frequency range of the IEEE 802.11b standard?",
+            "options": [{
+                    "text": "2.4Gbps",
+                    "correct": true
+                },
+                {
+                    "text": "5Gbps"
+                },
+                {
+                    "text": "2.4GHz"
+                },
+                {
+                    "text": " 5GHz"
+                }
+            ],
+            "explanation": "filter is a method used to conditionally create a new array"
+        },
+        {
+            "questionText": "scrum master is aslo called?",
+            "options": [{
+                    "text": "ceremonials"
+                },
+                {
+                    "text": "ceremonies",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ],
+            "explanation": "the export keyword allows for the information to be transmitted between files"
+        },
+        {
+            "questionText": "How is a property accessible within a class?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": "this.propertyName is the way to access a specific property within a class"
+        }
+    ]
+}

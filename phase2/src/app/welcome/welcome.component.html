@@ -1,0 +1,30 @@
+<div class="container  p-5 my-3" style="background-color:rgb(243, 238, 162)">
+    <h3 class="display-5 fw-bold">Online Quiz</h3>
+    <pre class="col-md-8 fs-4">Toal No.of questions:10            Total Marks:10</pre>
+    <h4>Instructions for the test :</h4>
+    <p>This quiz will contain 10 Mcq quesdtions on angular for which you have to score minimum of 75% to quallify for the next round.After reading
+        all instructions enter your name and click on start botton to start the test and try to complete in one go. </p>
+    <ol>
+        <li>
+            All questions are compulsory.
+        </li>
+        <li>Try to submit the paper in 10 minutes</li>
+        <li>You are allowed to submit only once, make sure that you have correctly attempted all the questions before submission.</li>
+        <li>
+            No Negative Marking.
+        </li>
+        <li>
+            Make sure no phones,calculators are used while writing test.
+        </li>
+        <li>
+            You are allowed to submit only once, make sure that you have correctly attempted all the questions before submission.
+        </li>
+    </ol>
+    <div class="name col-md-4 my-3">
+        <label for=""><b>Username:</b></label>
+        <input #name type="text" placeholder="Enter your name....." class="form-control">
+
+    </div>
+    <button class="btn  btn-lg" routerLink="/question" style="background-color: rgb(24, 51, 24);color: white;"(click)="startQuiz()">Start the test</button>
+
+</div>
